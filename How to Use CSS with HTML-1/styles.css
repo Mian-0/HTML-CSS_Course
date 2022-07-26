@@ -1,0 +1,27 @@
+/* 
+* Main CSS stylesheet for our project
+*/
+
+body {
+    background-color: red;
+}
+h1, h2, h3 {
+    color: white;
+    font-size: 200px;
+}
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 80px;
+}
+h3 {
+    font-size: 60px;
+    color: yellow;
+}
+.blue-heading {
+    color: aqua;
+}
+#headingOrange {
+    color: chartreuse;
+}
