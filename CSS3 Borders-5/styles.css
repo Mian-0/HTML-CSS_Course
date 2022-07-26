@@ -1,0 +1,55 @@
+/*
+*CSS3 Borders
+*/
+
+/* Basic Border Exaple d*/
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+/* Border Width */
+.border-width {
+    border-style: solid;
+    border-width: 10px;
+}
+/* Border Colors */
+.border-colors {
+    border-style: dashed solid dotted solid;
+    border-width: 10px;
+    border-color: dodgerblue dodgerblue purple purple;
+}
+.border-left {
+    border-left-style: solid;
+    border-width: 10px;
+    border-color: darkblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Border radius */
+.border-radius {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 30px;
+
+}
+.border-radius-sides {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 30px 0px 30px 0px;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 10px solid darkorange;
+}
