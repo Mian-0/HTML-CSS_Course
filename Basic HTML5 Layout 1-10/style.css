@@ -1,0 +1,57 @@
+/* 
+*HTML5 & CSS3 BASIC LAYOUT- 1
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+header, footer, section, aside {
+    display: block;
+}
+h2, h3 {
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+header, footer, .content {
+    width: 100%;
+}
+header, footer {
+    height: 50px;
+    padding: 50px 0;
+    border-bottom: 1px solid #cccccc;
+}
+footer {
+    border-bottom: none;
+    border-top: 1px solid #cccccc;
+}
+header h1 {
+    margin-top: 0;
+    text-align: center;
+}
+footer, h2 {
+    margin-top: 0;
+}
+section, aside {
+    float: left;
+}
+.content {
+    clear: both;
+    height: auto;
+    overflow: hidden;
+}
+section {
+    width: 69%;
+    height: 500px; 
+    border-right: 1px solid #cccccc;
+}
+aside {
+    width: 30%;
+    height: 500px;
+}
+

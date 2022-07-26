@@ -1,0 +1,16 @@
+/*
+*Box Model, Margins & Paddings
+*/
+.box-model {
+    width: 500px;
+    height: 500px;
+    background-color: goldenrod;
+    padding: 50px;
+    border: solid 10px #333333;
+    margin: 30px auto;
+}
+.box-model p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}

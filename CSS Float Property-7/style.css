@@ -1,0 +1,28 @@
+/*
+*CSS Float Property
+*/
+.box-container {
+    width: 100%;
+    clear: both;
+    height: auto;
+    overflow: hidden;
+}
+.box-model {
+    width: 500px;
+    height: 500px;
+    background-color: goldenrod;
+    padding: 50px;
+    border: solid 10px #333333;
+    margin: 30px;
+    float: right;
+}
+.box-model p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.items-list li {
+    float: left;
+    margin-right: 30px;
+
+}
